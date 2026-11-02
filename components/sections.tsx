@@ -10,8 +10,9 @@ import {
   Tag,
   Wrench,
 } from "lucide-react";
-import { business, partners, services, type Service } from "@/lib/site";
+import { business, services, type Service } from "@/lib/site";
 import { CallButton, QuoteButton, TextLink } from "./ui";
+import { PartnerLogos } from "./partner-logos";
 
 export function Benefits() {
   const items = [
@@ -91,28 +92,11 @@ export function ServiceCards({ exclude }: { exclude?: string }) {
   );
 }
 
-export function PartnerStrip({ all = false }: { all?: boolean }) {
+export function PartnerStrip() {
   return (
-    <section
-      className={`partners ${all ? "partners-all" : ""}`}
-      aria-label="Ügyfeleink közül"
-    >
+    <section className="partners" aria-label="Ügyfeleink közül">
       <div className="container">
-        <p className="partner-caption">
-          Magánszemélyektől a nagyvállalatokig, sokan bízzák ránk.
-        </p>
-        <div className="partner-logos">
-          {partners.slice(0, all ? undefined : 5).map(([name, image]) => (
-            <Image
-              key={image}
-              src={`/images/${image}`}
-              width={225}
-              height={90}
-              alt={name}
-              sizes="(max-width: 600px) 130px, 180px"
-            />
-          ))}
-        </div>
+        <PartnerLogos />
       </div>
     </section>
   );

@@ -95,7 +95,7 @@ export default function AboutPage() {
           </article>
         </div>
       </section>
-      <PartnerStrip all />
+      <PartnerStrip />
       <Reviews />
       <Awards />
       <section className="section">

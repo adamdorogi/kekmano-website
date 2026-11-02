@@ -2,6 +2,7 @@ import type { StaticImageData } from "next/image";
 import drainPhoto from "../assets/plates/drain-photo.png";
 import womaPhoto from "../assets/plates/woma-photo.png";
 import cameraPhoto from "../assets/plates/camera-photo.png";
+import sourceReviews from "../content/reviews.json";
 
 export const business = {
   name: "Kék Manó",
@@ -133,32 +134,7 @@ export const services: Service[] = [
   },
 ];
 
-export const testimonials = [
-  {
-    name: "Dávid Jámbor",
-    text: "Nagyon meg vagyok elégedve a szolgáltatással. Gyors segítség, korrekt ár, profi szakemberek. Csak ajánlani tudom!",
-  },
-  {
-    name: "Anna Ambrus-Bernei",
-    text: "Vasárnap is 2 órán belül kint voltak. Meg is oldották a problémát. Nem ismernek lehetetlent.",
-  },
-  {
-    name: "Norbert Rozgonyi",
-    text: "Profik! Gyorsak és minden a megbeszéltek alapján történt! Csak ajánlani tudom!",
-  },
-  {
-    name: "Géza Sárközi",
-    text: "Gyors kiszállás szakszerű munkavégzés. Ajánlom mindenkinek.",
-  },
-  {
-    name: "Márkó Fazekas",
-    text: "Precíz munka, a nagy dugulás meg lett oldva.",
-  },
-  {
-    name: "Mátyás Molnár",
-    text: "Nagyon korrekt és gyors ügyintézés. A srácok egy óra alatt kint voltak és nagy szakértelemmel gyorsan orvosolták a problémát. Szívből ajánlom őket!",
-  },
-];
+export const testimonials = sourceReviews;
 
 export const partners = [
   ["Eurostars Hotel", "kekmano-dugulaselharitas-budapest-eurostars-hotel.jpg"],

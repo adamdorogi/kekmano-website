@@ -10,6 +10,7 @@ import {
 } from "@/components/ui";
 import {
   AboutPreview,
+  Awards,
   Benefits,
   ContactSection,
   Coverage,
@@ -81,6 +82,7 @@ export default function Home() {
       <PartnerStrip />
       <AboutPreview />
       <Reviews />
+      <Awards />
       <Process />
       <Pricing />
       <section className="section work-preview">

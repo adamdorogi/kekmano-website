@@ -49,7 +49,7 @@ export default function ReferencesPage() {
           <ReferenceVideos />
         </div>
       </section>
-      <PartnerStrip all />
+      <PartnerStrip />
       <section id="fotok" className="section">
         <div className="container">
           <div className="section-heading">

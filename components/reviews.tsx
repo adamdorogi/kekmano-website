@@ -1,9 +1,78 @@
 "use client";
 
-import { useRef, useState } from "react";
+import Image from "next/image";
+import { useEffect, useId, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { testimonials, business } from "@/lib/site";
 import { GoogleMark, Stars } from "./ui";
+
+function ReviewCard({
+  review,
+  index,
+}: {
+  review: (typeof testimonials)[number];
+  index: number;
+}) {
+  const [expanded, setExpanded] = useState(false);
+  const [photoFailed, setPhotoFailed] = useState(false);
+  const [truncated, setTruncated] = useState(false);
+  const quote = useRef<HTMLQuoteElement>(null);
+  const quoteId = useId();
+  useEffect(() => {
+    const node = quote.current;
+    if (!node || expanded) return;
+    const measure = () =>
+      setTruncated(node.scrollHeight > node.clientHeight + 1);
+    const observer = new ResizeObserver(measure);
+    observer.observe(node);
+    measure();
+    return () => observer.disconnect();
+  }, [expanded]);
+  return (
+    <figure className="review">
+      <Stars />
+      <blockquote
+        id={quoteId}
+        ref={quote}
+        className={!expanded ? "review-quote-collapsed" : undefined}
+      >
+        „{review.text}”
+      </blockquote>
+      {truncated && (
+        <button
+          type="button"
+          className="review-more"
+          onClick={() => setExpanded(!expanded)}
+          aria-expanded={expanded}
+          aria-controls={quoteId}
+        >
+          {expanded ? "Rövidebben" : "Teljes vélemény"}
+        </button>
+      )}
+      <figcaption>
+        <span className={`review-initial tone-${index % 3}`}>
+          {review.photo && !photoFailed ? (
+            <Image
+              src={review.photo}
+              width={39}
+              height={39}
+              alt=""
+              loading="eager"
+              onError={() => setPhotoFailed(true)}
+            />
+          ) : (
+            review.name[0]
+          )}
+        </span>
+        <span>
+          <strong>{review.name}</strong>
+          <small>Google-vélemény</small>
+        </span>
+        <GoogleMark />
+      </figcaption>
+    </figure>
+  );
+}
 
 export function Reviews() {
   const list = useRef<HTMLDivElement>(null);
@@ -76,21 +145,8 @@ export function Reviews() {
             setAtEnd(n.scrollLeft + n.clientWidth >= n.scrollWidth - 4);
           }}
         >
-          {testimonials.map((t, i) => (
-            <figure className="review" key={t.name}>
-              <Stars />
-              <blockquote>„{t.text}”</blockquote>
-              <figcaption>
-                <span className={`review-initial tone-${i % 3}`}>
-                  {t.name[0]}
-                </span>
-                <span>
-                  <strong>{t.name}</strong>
-                  <small>Google-vélemény</small>
-                </span>
-                <GoogleMark />
-              </figcaption>
-            </figure>
+          {testimonials.map((review, index) => (
+            <ReviewCard key={review.name} review={review} index={index} />
           ))}
         </div>
         <a

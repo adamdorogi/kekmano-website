@@ -24,3 +24,7 @@ FIRST VIEWPORT: A slim navy utility bar and white horizontal navigation. A large
 FORM: Grounded candidate 5, the expert's calling card, seed 69e2204e. Three image mockups explored composition; the user approved the white split layout. Original photographs replace generated approximations of those photographs. Signature interaction: the service menu opens as a concise index; linked actions share one short ease-out motion and a moving arrow. Reduced motion is respected.
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
+## Requested component updates · 2026-11-02
+
+Preserve the established world and page composition. All three client-logo sections use one continuous horizontal row of all ten source logos, with no arrow or pause/play buttons. Pause on hover, focus and touch; stop automatic movement when offscreen, hidden or reduced motion is requested. Reuse the six existing 2023/2024 award badges on the homepage. Include the original reviewer profile images where supplied, with initials as fallback. Keep the 15 attributed source reviews available; show at most four lines per collapsed preview and offer full-text expansion only when text is truncated. These local extensions retain existing type, color, shape and spacing tokens.

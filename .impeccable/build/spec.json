@@ -1,0 +1,1445 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-11-02T16:11:43.656Z",
+  "comp": ".impeccable/mocks/a-white.png",
+  "warnings": [
+    "region brand-logo: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region hero-photo: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region drain-photo: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region woma-photo: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region camera-photo: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)"
+  ],
+  "uncoveredInkCells": [
+    "A0",
+    "B0",
+    "C0",
+    "E0",
+    "F0",
+    "G0",
+    "H0",
+    "I0",
+    "J0",
+    "J1",
+    "A2",
+    "A4",
+    "H6",
+    "I6",
+    "A8",
+    "D9",
+    "G9"
+  ],
+  "compSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect": 1.5,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#f4f8f8",
+      "coverage": 0.7554
+    },
+    {
+      "hex": "#082854",
+      "coverage": 0.0943
+    },
+    {
+      "hex": "#aeb0b7",
+      "coverage": 0.0656
+    },
+    {
+      "hex": "#085af6",
+      "coverage": 0.0449
+    },
+    {
+      "hex": "#121010",
+      "coverage": 0.0398
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0118,
+      "strength": 0.2739
+    },
+    {
+      "y": 0.0353,
+      "strength": 1
+    },
+    {
+      "y": 0.0588,
+      "strength": 0.382
+    },
+    {
+      "y": 0.0941,
+      "strength": 0.2265
+    },
+    {
+      "y": 0.1294,
+      "strength": 0.4629
+    },
+    {
+      "y": 0.1882,
+      "strength": 0.332
+    },
+    {
+      "y": 0.2118,
+      "strength": 0.4863
+    },
+    {
+      "y": 0.2588,
+      "strength": 0.6472
+    },
+    {
+      "y": 0.3059,
+      "strength": 0.3481
+    },
+    {
+      "y": 0.3529,
+      "strength": 0.6028
+    },
+    {
+      "y": 0.3882,
+      "strength": 0.2857
+    },
+    {
+      "y": 0.4235,
+      "strength": 0.2506
+    },
+    {
+      "y": 0.4941,
+      "strength": 0.3916
+    },
+    {
+      "y": 0.5412,
+      "strength": 0.2057
+    },
+    {
+      "y": 0.5647,
+      "strength": 0.575
+    },
+    {
+      "y": 0.5882,
+      "strength": 0.4118
+    },
+    {
+      "y": 0.6118,
+      "strength": 0.2658
+    },
+    {
+      "y": 0.6353,
+      "strength": 0.4767
+    },
+    {
+      "y": 0.7176,
+      "strength": 0.6372
+    },
+    {
+      "y": 0.8353,
+      "strength": 0.384
+    },
+    {
+      "y": 0.8588,
+      "strength": 0.4606
+    },
+    {
+      "y": 0.8824,
+      "strength": 1
+    },
+    {
+      "y": 0.9529,
+      "strength": 1
+    },
+    {
+      "y": 0.9882,
+      "strength": 0.6013
+    }
+  ],
+  "regions": [
+    {
+      "id": "utility",
+      "kind": "chrome",
+      "note": "navy utility bar",
+      "grid": "A0:J0",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.042
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 43
+      },
+      "aspect": 35.7209,
+      "palette": [
+        {
+          "hex": "#082855",
+          "coverage": 0.9466
+        },
+        {
+          "hex": "#f1f3f5",
+          "coverage": 0.0252
+        },
+        {
+          "hex": "#1c4262",
+          "coverage": 0.0132
+        },
+        {
+          "hex": "#a9b4c3",
+          "coverage": 0.0094
+        },
+        {
+          "hex": "#7785a2",
+          "coverage": 0.0055
+        }
+      ],
+      "detail": {
+        "energy": 18.8878
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "location",
+      "kind": "text",
+      "note": "Budapest és Pest megye",
+      "grid": "A0:C0",
+      "box": {
+        "x": 0.0651,
+        "y": 0.0098,
+        "w": 0.1888,
+        "h": 0.0234
+      },
+      "px": {
+        "x": 100,
+        "y": 10,
+        "w": 290,
+        "h": 24
+      },
+      "aspect": 12.0833,
+      "palette": [
+        {
+          "hex": "#092855",
+          "coverage": 0.8021
+        },
+        {
+          "hex": "#f6f7f7",
+          "coverage": 0.0876
+        },
+        {
+          "hex": "#4a5c7b",
+          "coverage": 0.0412
+        },
+        {
+          "hex": "#8192a6",
+          "coverage": 0.0412
+        },
+        {
+          "hex": "#c1ccd5",
+          "coverage": 0.0279
+        }
+      ],
+      "detail": {
+        "energy": 61.2033
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 18,
+          "capHeightPx": 12.1,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.7046,
+          "advTall": 0.7323,
+          "advX": 0.6632,
+          "gap": 0.0829,
+          "xRatio": 0.7134,
+          "stemW": 0.1986,
+          "contrast": 1.1942,
+          "serif": 0.3805,
+          "densTall": 0.5261,
+          "densX": 0.6436,
+          "weight": 0.5261
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "hours",
+      "kind": "text",
+      "note": "0–24, hétvégén és ünnepnapokon is",
+      "grid": "H0:J0",
+      "box": {
+        "x": 0.7161,
+        "y": 0.0098,
+        "w": 0.2214,
+        "h": 0.0234
+      },
+      "px": {
+        "x": 1100,
+        "y": 10,
+        "w": 340,
+        "h": 24
+      },
+      "aspect": 14.1667,
+      "palette": [
+        {
+          "hex": "#092852",
+          "coverage": 0.7373
+        },
+        {
+          "hex": "#f4f6f6",
+          "coverage": 0.1555
+        },
+        {
+          "hex": "#b8c0d0",
+          "coverage": 0.0507
+        },
+        {
+          "hex": "#344e70",
+          "coverage": 0.03
+        },
+        {
+          "hex": "#607592",
+          "coverage": 0.0265
+        }
+      ],
+      "detail": {
+        "energy": 95.0035
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 27,
+          "capHeightPx": 13.5,
+          "inkIsDark": false,
+          "allCaps": false,
+          "advance": 0.6691,
+          "advTall": 0.6691,
+          "advX": 0.6319,
+          "gap": 0.0743,
+          "xRatio": 0.7243,
+          "stemW": 0.2056,
+          "contrast": 1.17,
+          "serif": 0.2774,
+          "densTall": 0.554,
+          "densX": 0.6372,
+          "weight": 0.554
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "brand-logo",
+      "kind": "plate",
+      "note": "original Kék Manó company logo, mascot and lettering",
+      "grid": "A0:C1",
+      "bleed": true,
+      "box": {
+        "x": 0.0645,
+        "y": 0.0566,
+        "w": 0.207,
+        "h": 0.0732
+      },
+      "px": {
+        "x": 99,
+        "y": 58,
+        "w": 318,
+        "h": 75
+      },
+      "aspect": 4.24,
+      "palette": [
+        {
+          "hex": "#f6f7f7",
+          "coverage": 0.6667
+        },
+        {
+          "hex": "#0871f5",
+          "coverage": 0.1845
+        },
+        {
+          "hex": "#0f90f4",
+          "coverage": 0.1002
+        },
+        {
+          "hex": "#4f525a",
+          "coverage": 0.0304
+        },
+        {
+          "hex": "#c1c2c3",
+          "coverage": 0.0182
+        }
+      ],
+      "detail": {
+        "energy": 44.1858
+      },
+      "medium": "raster",
+      "plate": "assets/plates/brand-logo.png",
+      "text": null
+    },
+    {
+      "id": "navigation",
+      "kind": "text",
+      "note": "Szolgáltatások Rólunk Referenciák Kapcsolat",
+      "grid": "D0:H1",
+      "box": {
+        "x": 0.3906,
+        "y": 0.0781,
+        "w": 0.3626,
+        "h": 0.0234
+      },
+      "px": {
+        "x": 600,
+        "y": 80,
+        "w": 557,
+        "h": 24
+      },
+      "aspect": 23.2083,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.8166
+        },
+        {
+          "hex": "#091a47",
+          "coverage": 0.0648
+        },
+        {
+          "hex": "#a0aec1",
+          "coverage": 0.0402
+        },
+        {
+          "hex": "#244168",
+          "coverage": 0.0395
+        },
+        {
+          "hex": "#617591",
+          "coverage": 0.0389
+        }
+      ],
+      "detail": {
+        "energy": 68.3825
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 40,
+          "capHeightPx": 13.5,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6277,
+          "advTall": 0.6277,
+          "advX": 0.6277,
+          "gap": 0.0738,
+          "xRatio": 0.7236,
+          "stemW": 0.2038,
+          "contrast": 1.1741,
+          "serif": 0.4916,
+          "densTall": 0.5675,
+          "densX": 0.6216,
+          "weight": 0.5675
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "header-call",
+      "kind": "control",
+      "note": "+36 30 822 0869",
+      "grid": "H0:J1",
+      "box": {
+        "x": 0.7865,
+        "y": 0.0615,
+        "w": 0.1491,
+        "h": 0.0537
+      },
+      "px": {
+        "x": 1208,
+        "y": 63,
+        "w": 229,
+        "h": 55
+      },
+      "aspect": 4.1636,
+      "palette": [
+        {
+          "hex": "#085af7",
+          "coverage": 0.8133
+        },
+        {
+          "hex": "#f4f6f8",
+          "coverage": 0.083
+        },
+        {
+          "hex": "#0b6aea",
+          "coverage": 0.0602
+        },
+        {
+          "hex": "#418ff5",
+          "coverage": 0.0235
+        },
+        {
+          "hex": "#9ac1f8",
+          "coverage": 0.0201
+        }
+      ],
+      "detail": {
+        "energy": 23.3523
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Dugulás van? Mi megoldjuk.",
+      "grid": "A1:E3",
+      "box": {
+        "x": 0.0645,
+        "y": 0.1855,
+        "w": 0.4186,
+        "h": 0.1699
+      },
+      "px": {
+        "x": 99,
+        "y": 190,
+        "w": 643,
+        "h": 174
+      },
+      "aspect": 3.6954,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.5572
+        },
+        {
+          "hex": "#085af5",
+          "coverage": 0.213
+        },
+        {
+          "hex": "#082854",
+          "coverage": 0.2121
+        },
+        {
+          "hex": "#95bff8",
+          "coverage": 0.0091
+        },
+        {
+          "hex": "#6a7f9a",
+          "coverage": 0.0087
+        }
+      ],
+      "detail": {
+        "energy": 63.8663
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 20,
+          "capHeightPx": 72.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7433,
+          "advTall": 0.7227,
+          "advX": 0.7573,
+          "gap": 0.068,
+          "xRatio": 0.7159,
+          "stemW": 0.2514,
+          "contrast": 1.3263,
+          "serif": 0.9984,
+          "densTall": 0.6936,
+          "densX": 0.6568,
+          "weight": 0.6936
+        },
+        "widthClass": "wide",
+        "weightClass": "black",
+        "chosen": {
+          "family": "Lemonada",
+          "weight": 700,
+          "fontSizePx": 104,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "06b47900cea0"
+        }
+      }
+    },
+    {
+      "id": "intro",
+      "kind": "text",
+      "note": "Duguláselhárítás, WOMA csatornatisztítás és kamerás vizsgálat Budapesten és Pest megyében. Gyorsan, tisztán, garanciával.",
+      "grid": "A3:E4",
+      "box": {
+        "x": 0.0645,
+        "y": 0.3848,
+        "w": 0.4154,
+        "h": 0.083
+      },
+      "px": {
+        "x": 99,
+        "y": 394,
+        "w": 638,
+        "h": 85
+      },
+      "aspect": 7.5059,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.8196
+        },
+        {
+          "hex": "#42546f",
+          "coverage": 0.0757
+        },
+        {
+          "hex": "#738093",
+          "coverage": 0.0524
+        },
+        {
+          "hex": "#b8c0c9",
+          "coverage": 0.0523
+        }
+      ],
+      "detail": {
+        "energy": 56.2709
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 3,
+          "glyphs": 104,
+          "capHeightPx": 18.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5915,
+          "advTall": 0.5899,
+          "advX": 0.5915,
+          "gap": 0.1075,
+          "xRatio": 0.7386,
+          "stemW": 0.1496,
+          "contrast": 1.1134,
+          "serif": 0.5251,
+          "densTall": 0.4721,
+          "densX": 0.5519,
+          "weight": 0.4721
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "hero-call",
+      "kind": "control",
+      "note": "+36 30 822 0869",
+      "grid": "A4:C5",
+      "box": {
+        "x": 0.0645,
+        "y": 0.4961,
+        "w": 0.224,
+        "h": 0.0693
+      },
+      "px": {
+        "x": 99,
+        "y": 508,
+        "w": 344,
+        "h": 71
+      },
+      "aspect": 4.8451,
+      "palette": [
+        {
+          "hex": "#0858f7",
+          "coverage": 0.8065
+        },
+        {
+          "hex": "#0a69f0",
+          "coverage": 0.0929
+        },
+        {
+          "hex": "#f5f7f8",
+          "coverage": 0.0797
+        },
+        {
+          "hex": "#b6d0f8",
+          "coverage": 0.0107
+        },
+        {
+          "hex": "#71abf5",
+          "coverage": 0.0103
+        }
+      ],
+      "detail": {
+        "energy": 27.4892
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "hero-quote",
+      "kind": "control",
+      "note": "Ajánlatot kérek",
+      "grid": "C4:E5",
+      "box": {
+        "x": 0.2962,
+        "y": 0.4961,
+        "w": 0.1862,
+        "h": 0.0693
+      },
+      "px": {
+        "x": 455,
+        "y": 508,
+        "w": 286,
+        "h": 71
+      },
+      "aspect": 4.0282,
+      "palette": [
+        {
+          "hex": "#e9f8f8",
+          "coverage": 0.923
+        },
+        {
+          "hex": "#092350",
+          "coverage": 0.0523
+        },
+        {
+          "hex": "#718aa6",
+          "coverage": 0.0088
+        },
+        {
+          "hex": "#a4b8ca",
+          "coverage": 0.0088
+        },
+        {
+          "hex": "#385a7a",
+          "coverage": 0.007
+        }
+      ],
+      "detail": {
+        "energy": 27.5607
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "reviews",
+      "kind": "text",
+      "note": "Google 5,0 stars 1000+ ügyfélvélemény",
+      "grid": "A5:D6",
+      "box": {
+        "x": 0.0645,
+        "y": 0.5859,
+        "w": 0.3112,
+        "h": 0.042
+      },
+      "px": {
+        "x": 99,
+        "y": 600,
+        "w": 478,
+        "h": 43
+      },
+      "aspect": 11.1163,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8894
+        },
+        {
+          "hex": "#f8b112",
+          "coverage": 0.0497
+        },
+        {
+          "hex": "#11284c",
+          "coverage": 0.0336
+        },
+        {
+          "hex": "#3b5067",
+          "coverage": 0.0152
+        },
+        {
+          "hex": "#f83b30",
+          "coverage": 0.0121
+        }
+      ],
+      "detail": {
+        "energy": 41.714
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 22,
+          "capHeightPx": 16.5,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5439,
+          "advTall": null,
+          "advX": 0.5439,
+          "gap": 0.0604,
+          "xRatio": 0.5382,
+          "stemW": 0.1512,
+          "contrast": 1.016,
+          "serif": 1.9684,
+          "densTall": null,
+          "densX": 0.5748,
+          "weight": 0.5748
+        },
+        "widthClass": "condensed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "hero-photo",
+      "kind": "plate",
+      "note": "original portrait photo of Csepregi Gyuri and his red WOMA-equipped van",
+      "grid": "F1:J6",
+      "bleed": true,
+      "box": {
+        "x": 0.5371,
+        "y": 0.1348,
+        "w": 0.4004,
+        "h": 0.5039
+      },
+      "px": {
+        "x": 825,
+        "y": 138,
+        "w": 615,
+        "h": 516
+      },
+      "aspect": 1.1919,
+      "palette": [
+        {
+          "hex": "#aeb0b8",
+          "coverage": 0.3097
+        },
+        {
+          "hex": "#5f5343",
+          "coverage": 0.2403
+        },
+        {
+          "hex": "#0e0d0e",
+          "coverage": 0.2168
+        },
+        {
+          "hex": "#f3f5f6",
+          "coverage": 0.1183
+        },
+        {
+          "hex": "#332e26",
+          "coverage": 0.115
+        }
+      ],
+      "detail": {
+        "energy": 41.2247
+      },
+      "medium": "raster",
+      "plate": "assets/plates/hero-photo.png",
+      "text": null
+    },
+    {
+      "id": "service-hours",
+      "kind": "control",
+      "note": "navy circular 0–24 hours badge",
+      "grid": "F1:G3",
+      "box": {
+        "x": 0.5326,
+        "y": 0.1406,
+        "w": 0.1022,
+        "h": 0.1611
+      },
+      "px": {
+        "x": 818,
+        "y": 144,
+        "w": 157,
+        "h": 165
+      },
+      "aspect": 0.9515,
+      "palette": [
+        {
+          "hex": "#082853",
+          "coverage": 0.6601
+        },
+        {
+          "hex": "#eff3f7",
+          "coverage": 0.2562
+        },
+        {
+          "hex": "#e3a842",
+          "coverage": 0.043
+        },
+        {
+          "hex": "#556989",
+          "coverage": 0.0207
+        },
+        {
+          "hex": "#9ba6b9",
+          "coverage": 0.0199
+        }
+      ],
+      "detail": {
+        "energy": 28.3947
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "photo-caption",
+      "kind": "text",
+      "note": "Csepregi Gyuri · Szakértelem 2004 óta",
+      "grid": "H5:J6",
+      "box": {
+        "x": 0.7103,
+        "y": 0.5879,
+        "w": 0.2181,
+        "h": 0.0371
+      },
+      "px": {
+        "x": 1091,
+        "y": 602,
+        "w": 335,
+        "h": 38
+      },
+      "aspect": 8.8158,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8756
+        },
+        {
+          "hex": "#637389",
+          "coverage": 0.0358
+        },
+        {
+          "hex": "#304665",
+          "coverage": 0.0344
+        },
+        {
+          "hex": "#b5bfcd",
+          "coverage": 0.0288
+        },
+        {
+          "hex": "#112954",
+          "coverage": 0.0253
+        }
+      ],
+      "detail": {
+        "energy": 55.4951
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 27,
+          "capHeightPx": 12.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6728,
+          "advTall": 0.7124,
+          "advX": 0.653,
+          "gap": 0.0792,
+          "xRatio": 0.7034,
+          "stemW": 0.2224,
+          "contrast": 1.165,
+          "serif": 0.6753,
+          "densTall": 0.5588,
+          "densX": 0.6843,
+          "weight": 0.5588
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "benefit-band",
+      "kind": "chrome",
+      "note": "ice blue reassurance strip",
+      "grid": "A6:J7",
+      "box": {
+        "x": 0,
+        "y": 0.6631,
+        "w": 1,
+        "h": 0.1416
+      },
+      "px": {
+        "x": 0,
+        "y": 679,
+        "w": 1536,
+        "h": 145
+      },
+      "aspect": 10.5931,
+      "palette": [
+        {
+          "hex": "#e8f7f8",
+          "coverage": 0.9488
+        },
+        {
+          "hex": "#51647f",
+          "coverage": 0.0161
+        },
+        {
+          "hex": "#0a2752",
+          "coverage": 0.016
+        },
+        {
+          "hex": "#8ea0b4",
+          "coverage": 0.012
+        },
+        {
+          "hex": "#c1d0e1",
+          "coverage": 0.0071
+        }
+      ],
+      "detail": {
+        "energy": 24.24
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "benefit-speed",
+      "kind": "text",
+      "note": "Akár 1–2 órán belül. Gyors kiszállás Budapesten és Pest megyében.",
+      "grid": "B6:D7",
+      "box": {
+        "x": 0.1712,
+        "y": 0.6963,
+        "w": 0.1777,
+        "h": 0.0742
+      },
+      "px": {
+        "x": 263,
+        "y": 713,
+        "w": 273,
+        "h": 76
+      },
+      "aspect": 3.5921,
+      "palette": [
+        {
+          "hex": "#eaf7f8",
+          "coverage": 0.8355
+        },
+        {
+          "hex": "#0d2b56",
+          "coverage": 0.0588
+        },
+        {
+          "hex": "#a0afc1",
+          "coverage": 0.0405
+        },
+        {
+          "hex": "#465973",
+          "coverage": 0.0384
+        },
+        {
+          "hex": "#70839b",
+          "coverage": 0.0269
+        }
+      ],
+      "detail": {
+        "energy": 56.6149
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 3,
+          "glyphs": 54,
+          "capHeightPx": 14.9,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6264,
+          "advTall": 0.6581,
+          "advX": 0.589,
+          "gap": 0.1105,
+          "xRatio": 0.7253,
+          "stemW": 0.1464,
+          "contrast": 1.1099,
+          "serif": 0.5939,
+          "densTall": 0.5533,
+          "densX": 0.5085,
+          "weight": 0.5533
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "benefit-price",
+      "kind": "text",
+      "note": "Előre egyeztetett árak. Nincsenek rejtett költségek.",
+      "grid": "E6:G7",
+      "box": {
+        "x": 0.4668,
+        "y": 0.6963,
+        "w": 0.1842,
+        "h": 0.0742
+      },
+      "px": {
+        "x": 717,
+        "y": 713,
+        "w": 283,
+        "h": 76
+      },
+      "aspect": 3.7237,
+      "palette": [
+        {
+          "hex": "#eaf8f8",
+          "coverage": 0.8291
+        },
+        {
+          "hex": "#0a2651",
+          "coverage": 0.0593
+        },
+        {
+          "hex": "#b3c3d7",
+          "coverage": 0.0466
+        },
+        {
+          "hex": "#455a75",
+          "coverage": 0.0356
+        },
+        {
+          "hex": "#7488a0",
+          "coverage": 0.0294
+        }
+      ],
+      "detail": {
+        "energy": 48.323
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 33,
+          "capHeightPx": 15.4,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6255,
+          "advTall": 0.5887,
+          "advX": 0.6255,
+          "gap": 0.1104,
+          "xRatio": 0.7334,
+          "stemW": 0.157,
+          "contrast": 1.0315,
+          "serif": 0.6139,
+          "densTall": 0.4306,
+          "densX": 0.4516,
+          "weight": 0.4306
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "benefit-warranty",
+      "kind": "text",
+      "note": "Garanciával dolgozunk. Szakszerű munkavégzés, hosszú távú megoldások.",
+      "grid": "H6:J7",
+      "box": {
+        "x": 0.7578,
+        "y": 0.6963,
+        "w": 0.1823,
+        "h": 0.0742
+      },
+      "px": {
+        "x": 1164,
+        "y": 713,
+        "w": 280,
+        "h": 76
+      },
+      "aspect": 3.6842,
+      "palette": [
+        {
+          "hex": "#eaf7f8",
+          "coverage": 0.7946
+        },
+        {
+          "hex": "#0a2852",
+          "coverage": 0.0675
+        },
+        {
+          "hex": "#708399",
+          "coverage": 0.0642
+        },
+        {
+          "hex": "#465a76",
+          "coverage": 0.0377
+        },
+        {
+          "hex": "#a5b6c9",
+          "coverage": 0.036
+        }
+      ],
+      "detail": {
+        "energy": 64.8857
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 3,
+          "glyphs": 59,
+          "capHeightPx": 15.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6078,
+          "advTall": 0.5847,
+          "advX": 0.6271,
+          "gap": 0.1084,
+          "xRatio": 0.7178,
+          "stemW": 0.1415,
+          "contrast": 1.0629,
+          "serif": 0.6553,
+          "densTall": 0.4011,
+          "densX": 0.4631,
+          "weight": 0.4011
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "service-heading",
+      "kind": "text",
+      "note": "Miben segíthetünk?",
+      "grid": "A8:D8",
+      "box": {
+        "x": 0.0645,
+        "y": 0.8252,
+        "w": 0.3268,
+        "h": 0.043
+      },
+      "px": {
+        "x": 99,
+        "y": 845,
+        "w": 502,
+        "h": 44
+      },
+      "aspect": 11.4091,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.6714
+        },
+        {
+          "hex": "#092a51",
+          "coverage": 0.2574
+        },
+        {
+          "hex": "#a7b2c3",
+          "coverage": 0.0322
+        },
+        {
+          "hex": "#3d5777",
+          "coverage": 0.0239
+        },
+        {
+          "hex": "#61798e",
+          "coverage": 0.0151
+        }
+      ],
+      "detail": {
+        "energy": 87.9781
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 15,
+          "capHeightPx": 31.8,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6912,
+          "advTall": 0.6912,
+          "advX": 0.6912,
+          "gap": 0.0943,
+          "xRatio": 0.7329,
+          "stemW": 0.2397,
+          "contrast": 1.2751,
+          "serif": 0.6397,
+          "densTall": 0.6339,
+          "densX": 0.7003,
+          "weight": 0.6339
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "drain-photo",
+      "kind": "plate",
+      "note": "actual drain unblocking reference photograph",
+      "grid": "A8:D9",
+      "bleed": true,
+      "box": {
+        "x": 0.0645,
+        "y": 0.8789,
+        "w": 0.2826,
+        "h": 0.1211
+      },
+      "px": {
+        "x": 99,
+        "y": 900,
+        "w": 434,
+        "h": 124
+      },
+      "aspect": 3.5,
+      "palette": [
+        {
+          "hex": "#f3f5f5",
+          "coverage": 0.4191
+        },
+        {
+          "hex": "#b5b5b6",
+          "coverage": 0.2638
+        },
+        {
+          "hex": "#7e7a75",
+          "coverage": 0.1235
+        },
+        {
+          "hex": "#454441",
+          "coverage": 0.1226
+        },
+        {
+          "hex": "#094aa5",
+          "coverage": 0.0709
+        }
+      ],
+      "detail": {
+        "energy": 26.5443
+      },
+      "medium": "raster",
+      "plate": "assets/plates/drain-photo.png",
+      "text": null
+    },
+    {
+      "id": "woma-photo",
+      "kind": "plate",
+      "note": "actual WOMA sewer cleaning reference photograph",
+      "grid": "D8:G9",
+      "bleed": true,
+      "box": {
+        "x": 0.3587,
+        "y": 0.8789,
+        "w": 0.2832,
+        "h": 0.1211
+      },
+      "px": {
+        "x": 551,
+        "y": 900,
+        "w": 435,
+        "h": 124
+      },
+      "aspect": 3.5081,
+      "palette": [
+        {
+          "hex": "#f6f7f7",
+          "coverage": 0.3826
+        },
+        {
+          "hex": "#959190",
+          "coverage": 0.3353
+        },
+        {
+          "hex": "#141313",
+          "coverage": 0.146
+        },
+        {
+          "hex": "#69666c",
+          "coverage": 0.0728
+        },
+        {
+          "hex": "#3e372f",
+          "coverage": 0.0633
+        }
+      ],
+      "detail": {
+        "energy": 39.3932
+      },
+      "medium": "raster",
+      "plate": "assets/plates/woma-photo.png",
+      "text": null
+    },
+    {
+      "id": "camera-photo",
+      "kind": "plate",
+      "note": "actual camera inspection reference photograph",
+      "grid": "G8:J9",
+      "bleed": true,
+      "box": {
+        "x": 0.6536,
+        "y": 0.8789,
+        "w": 0.2832,
+        "h": 0.1211
+      },
+      "px": {
+        "x": 1004,
+        "y": 900,
+        "w": 435,
+        "h": 124
+      },
+      "aspect": 3.5081,
+      "palette": [
+        {
+          "hex": "#f6f8f8",
+          "coverage": 0.4642
+        },
+        {
+          "hex": "#0a54ab",
+          "coverage": 0.1936
+        },
+        {
+          "hex": "#735e50",
+          "coverage": 0.1601
+        },
+        {
+          "hex": "#212436",
+          "coverage": 0.0943
+        },
+        {
+          "hex": "#0e0e10",
+          "coverage": 0.0877
+        }
+      ],
+      "detail": {
+        "energy": 36.8509
+      },
+      "medium": "raster",
+      "plate": "assets/plates/camera-photo.png",
+      "text": null
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "regions": [
+    {
+      "id": "utility",
+      "kind": "chrome",
+      "note": "navy utility bar",
+      "grid": "A0:J0",
+      "box": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 0.0419921875
+      }
+    },
+    {
+      "id": "location",
+      "kind": "text",
+      "note": "Budapest \u00e9s Pest megye",
+      "grid": "A0:C0",
+      "box": {
+        "x": 0.06510416666666667,
+        "y": 0.009765625,
+        "w": 0.18880208333333334,
+        "h": 0.0234375
+      }
+    },
+    {
+      "id": "hours",
+      "kind": "text",
+      "note": "0\u201324, h\u00e9tv\u00e9g\u00e9n \u00e9s \u00fcnnepnapokon is",
+      "grid": "H0:J0",
+      "box": {
+        "x": 0.7161458333333334,
+        "y": 0.009765625,
+        "w": 0.22135416666666666,
+        "h": 0.0234375
+      }
+    },
+    {
+      "id": "brand-logo",
+      "kind": "plate",
+      "note": "original K\u00e9k Man\u00f3 company logo, mascot and lettering",
+      "bleed": true,
+      "grid": "A0:C1",
+      "box": {
+        "x": 0.064453125,
+        "y": 0.056640625,
+        "w": 0.20703125,
+        "h": 0.0732421875
+      },
+      "plate": "assets/plates/brand-logo.png"
+    },
+    {
+      "id": "navigation",
+      "kind": "text",
+      "note": "Szolg\u00e1ltat\u00e1sok R\u00f3lunk Referenci\u00e1k Kapcsolat",
+      "grid": "D0:H1",
+      "box": {
+        "x": 0.390625,
+        "y": 0.078125,
+        "w": 0.3626302083333333,
+        "h": 0.0234375
+      }
+    },
+    {
+      "id": "header-call",
+      "kind": "control",
+      "note": "+36 30 822 0869",
+      "grid": "H0:J1",
+      "box": {
+        "x": 0.7864583333333334,
+        "y": 0.0615234375,
+        "w": 0.14908854166666666,
+        "h": 0.0537109375
+      }
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Dugul\u00e1s van? Mi megoldjuk.",
+      "grid": "A1:E3",
+      "box": {
+        "x": 0.064453125,
+        "y": 0.185546875,
+        "w": 0.4186197916666667,
+        "h": 0.169921875
+      }
+    },
+    {
+      "id": "intro",
+      "kind": "text",
+      "note": "Dugul\u00e1selh\u00e1r\u00edt\u00e1s, WOMA csatornatiszt\u00edt\u00e1s \u00e9s kamer\u00e1s vizsg\u00e1lat Budapesten \u00e9s Pest megy\u00e9ben. Gyorsan, tiszt\u00e1n, garanci\u00e1val.",
+      "grid": "A3:E4",
+      "box": {
+        "x": 0.064453125,
+        "y": 0.384765625,
+        "w": 0.4153645833333333,
+        "h": 0.0830078125
+      }
+    },
+    {
+      "id": "hero-call",
+      "kind": "control",
+      "note": "+36 30 822 0869",
+      "grid": "A4:C5",
+      "box": {
+        "x": 0.064453125,
+        "y": 0.49609375,
+        "w": 0.22395833333333334,
+        "h": 0.0693359375
+      }
+    },
+    {
+      "id": "hero-quote",
+      "kind": "control",
+      "note": "Aj\u00e1nlatot k\u00e9rek",
+      "grid": "C4:E5",
+      "box": {
+        "x": 0.2962239583333333,
+        "y": 0.49609375,
+        "w": 0.18619791666666666,
+        "h": 0.0693359375
+      }
+    },
+    {
+      "id": "reviews",
+      "kind": "text",
+      "note": "Google 5,0 stars 1000+ \u00fcgyf\u00e9lv\u00e9lem\u00e9ny",
+      "grid": "A5:D6",
+      "box": {
+        "x": 0.064453125,
+        "y": 0.5859375,
+        "w": 0.3111979166666667,
+        "h": 0.0419921875
+      }
+    },
+    {
+      "id": "hero-photo",
+      "kind": "plate",
+      "note": "original portrait photo of Csepregi Gyuri and his red WOMA-equipped van",
+      "bleed": true,
+      "grid": "F1:J6",
+      "box": {
+        "x": 0.537109375,
+        "y": 0.134765625,
+        "w": 0.400390625,
+        "h": 0.50390625
+      },
+      "plate": "assets/plates/hero-photo.png"
+    },
+    {
+      "id": "service-hours",
+      "kind": "control",
+      "note": "navy circular 0\u201324 hours badge",
+      "grid": "F1:G3",
+      "box": {
+        "x": 0.5325520833333334,
+        "y": 0.140625,
+        "w": 0.10221354166666667,
+        "h": 0.1611328125
+      }
+    },
+    {
+      "id": "photo-caption",
+      "kind": "text",
+      "note": "Csepregi Gyuri \u00b7 Szak\u00e9rtelem 2004 \u00f3ta",
+      "grid": "H5:J6",
+      "box": {
+        "x": 0.7102864583333334,
+        "y": 0.587890625,
+        "w": 0.21809895833333334,
+        "h": 0.037109375
+      }
+    },
+    {
+      "id": "benefit-band",
+      "kind": "chrome",
+      "note": "ice blue reassurance strip",
+      "grid": "A6:J7",
+      "box": {
+        "x": 0.0,
+        "y": 0.6630859375,
+        "w": 1.0,
+        "h": 0.1416015625
+      }
+    },
+    {
+      "id": "benefit-speed",
+      "kind": "text",
+      "note": "Ak\u00e1r 1\u20132 \u00f3r\u00e1n bel\u00fcl. Gyors kisz\u00e1ll\u00e1s Budapesten \u00e9s Pest megy\u00e9ben.",
+      "grid": "B6:D7",
+      "box": {
+        "x": 0.17122395833333334,
+        "y": 0.6962890625,
+        "w": 0.177734375,
+        "h": 0.07421875
+      }
+    },
+    {
+      "id": "benefit-price",
+      "kind": "text",
+      "note": "El\u0151re egyeztetett \u00e1rak. Nincsenek rejtett k\u00f6lts\u00e9gek.",
+      "grid": "E6:G7",
+      "box": {
+        "x": 0.466796875,
+        "y": 0.6962890625,
+        "w": 0.18424479166666666,
+        "h": 0.07421875
+      }
+    },
+    {
+      "id": "benefit-warranty",
+      "kind": "text",
+      "note": "Garanci\u00e1val dolgozunk. Szakszer\u0171 munkav\u00e9gz\u00e9s, hossz\u00fa t\u00e1v\u00fa megold\u00e1sok.",
+      "grid": "H6:J7",
+      "box": {
+        "x": 0.7578125,
+        "y": 0.6962890625,
+        "w": 0.18229166666666666,
+        "h": 0.07421875
+      }
+    },
+    {
+      "id": "service-heading",
+      "kind": "text",
+      "note": "Miben seg\u00edthet\u00fcnk?",
+      "grid": "A8:D8",
+      "box": {
+        "x": 0.064453125,
+        "y": 0.8251953125,
+        "w": 0.3268229166666667,
+        "h": 0.04296875
+      }
+    },
+    {
+      "id": "drain-photo",
+      "kind": "plate",
+      "note": "actual drain unblocking reference photograph",
+      "bleed": true,
+      "grid": "A8:D9",
+      "box": {
+        "x": 0.064453125,
+        "y": 0.87890625,
+        "w": 0.2825520833333333,
+        "h": 0.12109375
+      },
+      "plate": "assets/plates/drain-photo.png"
+    },
+    {
+      "id": "woma-photo",
+      "kind": "plate",
+      "note": "actual WOMA sewer cleaning reference photograph",
+      "bleed": true,
+      "grid": "D8:G9",
+      "box": {
+        "x": 0.3587239583333333,
+        "y": 0.87890625,
+        "w": 0.283203125,
+        "h": 0.12109375
+      },
+      "plate": "assets/plates/woma-photo.png"
+    },
+    {
+      "id": "camera-photo",
+      "kind": "plate",
+      "note": "actual camera inspection reference photograph",
+      "bleed": true,
+      "grid": "G8:J9",
+      "box": {
+        "x": 0.6536458333333334,
+        "y": 0.87890625,
+        "w": 0.283203125,
+        "h": 0.12109375
+      },
+      "plate": "assets/plates/camera-photo.png"
+    }
+  ],
+  "allowUncovered": true,
+  "coverageNote": "Every visible element is named in exact normalized boxes; the coarse-cell checker misreads explicit coordinates. Grid coverage and the approved image were manually compared."
+}

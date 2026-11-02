@@ -1,0 +1,384 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-11-02T15:11:29.482Z",
+  "comp": ".impeccable/mocks/a-white.png",
+  "direction": "69e2204e",
+  "breakpoint": "1536x1024",
+  "artifact": null,
+  "phase": "review",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-11-02T15:11:29.482Z",
+      "closedAt": "2026-11-02T15:16:52.726Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/a-white.png",
+        "at": "2026-11-02T15:16:52.725Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-11-02T15:16:52.769Z",
+      "closedAt": "2026-11-02T15:22:39.744Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "22 regions, 5 plates, 11 text regions measured",
+        "at": "2026-11-02T15:22:39.744Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-11-02T15:22:39.744Z",
+      "closedAt": "2026-11-02T16:11:44.735Z",
+      "attempts": 3,
+      "notes": [],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "plate assets/plates/hero-photo.png is 600px wide; the comp region is 615px and a shipping plate needs at least 923px. Regenerate at asset size, do not crop the comp.",
+          "plate assets/plates/hero-photo.png: structure 29% against the comp region hero-photo: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop hero-photo as the reference image",
+          "plate assets/plates/drain-photo.png is 600px wide; the comp region is 434px and a shipping plate needs at least 651px. Regenerate at asset size, do not crop the comp.",
+          "plate assets/plates/drain-photo.png: structure 22% against the comp region drain-photo: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop drain-photo as the reference image",
+          "plate assets/plates/drain-photo.png: scores 23% against the comp region drain-photo (structure 22%, color 34%, detail 18%); regenerate with the crop as --ref and the comp-spec plate prompt",
+          "plate assets/plates/woma-photo.png: structure 12% against the comp region woma-photo: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop woma-photo as the reference image",
+          "plate assets/plates/woma-photo.png: scores 30% against the comp region woma-photo (structure 12%, color 39%, detail 35%); regenerate with the crop as --ref and the comp-spec plate prompt",
+          "plate assets/plates/camera-photo.png: structure 19% against the comp region camera-photo: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop camera-photo as the reference image",
+          "plate assets/plates/camera-photo.png: scores 25% against the comp region camera-photo (structure 19%, color 17%, detail 30%); regenerate with the crop as --ref and the comp-spec plate prompt"
+        ],
+        "summary": "5/5 plates",
+        "at": "2026-11-02T16:11:44.726Z"
+      },
+      "forced": {
+        "at": "2026-11-02T16:11:44.735Z",
+        "reason": "The user explicitly downgraded comp fidelity for photography and approved this adaptation: \"Keep original photos; use mockup A for layout (Recommended)\". Keep the source photographs rather than recreating the comp photos.",
+        "reasons": [
+          "plate assets/plates/hero-photo.png is 600px wide; the comp region is 615px and a shipping plate needs at least 923px. Regenerate at asset size, do not crop the comp.",
+          "plate assets/plates/hero-photo.png: structure 29% against the comp region hero-photo: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop hero-photo as the reference image",
+          "plate assets/plates/drain-photo.png is 600px wide; the comp region is 434px and a shipping plate needs at least 651px. Regenerate at asset size, do not crop the comp.",
+          "plate assets/plates/drain-photo.png: structure 22% against the comp region drain-photo: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop drain-photo as the reference image",
+          "plate assets/plates/drain-photo.png: scores 23% against the comp region drain-photo (structure 22%, color 34%, detail 18%); regenerate with the crop as --ref and the comp-spec plate prompt",
+          "plate assets/plates/woma-photo.png: structure 12% against the comp region woma-photo: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop woma-photo as the reference image",
+          "plate assets/plates/woma-photo.png: scores 30% against the comp region woma-photo (structure 12%, color 39%, detail 35%); regenerate with the crop as --ref and the comp-spec plate prompt",
+          "plate assets/plates/camera-photo.png: structure 19% against the comp region camera-photo: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop camera-photo as the reference image",
+          "plate assets/plates/camera-photo.png: scores 25% against the comp region camera-photo (structure 19%, color 17%, detail 30%); regenerate with the crop as --ref and the comp-spec plate prompt"
+        ]
+      }
+    },
+    "hero": {
+      "status": "closed",
+      "openedAt": "2026-11-02T16:11:44.735Z",
+      "closedAt": "2026-11-02T16:17:13.078Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "region hero-quote is missing (detail 6%, structure 67%): the comp shows material the build does not",
+          "region photo-caption is missing (detail 0%, structure 57%): the comp shows material the build does not",
+          "region benefit-speed is missing (detail 11%, structure 55%): the comp shows material the build does not",
+          "region benefit-warranty is missing (detail 1%, structure 58%): the comp shows material the build does not",
+          "region drain-photo is missing (detail 6%, structure 25%): the comp shows material the build does not",
+          "region woma-photo is missing (detail 29%, structure 25%): the comp shows material the build does not",
+          "region camera-photo is missing (detail 21%, structure 22%): the comp shows material the build does not",
+          "region hours (text) is contradicted (structure 65%, detail added 20%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region header-call (control) is contradicted (structure 64%, detail added 25%): this control does not read as the comp's: rebuild its chrome from the crop (border, fill, radius, chevron or arrow, label size) rather than from a component default",
+          "region hero-call (control) is contradicted (structure 61%, detail added 35%): this control does not read as the comp's: rebuild its chrome from the crop (border, fill, radius, chevron or arrow, label size) rather than from a component default",
+          "region service-hours (control) is contradicted (structure 34%, detail added 28%): this control does not read as the comp's: rebuild its chrome from the crop (border, fill, radius, chevron or arrow, label size) rather than from a component default",
+          "region service-heading (text) is contradicted (structure 43%, detail added 18%): the composition of this text region differs from the comp; re-derive it from the spec box"
+        ],
+        "summary": "hero 72% (drift)",
+        "score": 0.7237,
+        "verdict": "drift",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": "/Users/adamdorogi/Downloads/kekmano/.impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "drain-photo missing 20%",
+          "camera-photo missing 27%",
+          "woma-photo missing 32%"
+        ],
+        "worstIds": [
+          "drain-photo",
+          "camera-photo",
+          "woma-photo"
+        ],
+        "worstCrops": [
+          {
+            "id": "drain-photo",
+            "verdict": "missing",
+            "score": {
+              "overall": 0.1984,
+              "structure": 0.2494,
+              "color": 0.5341,
+              "colorIntersection": 0.3686,
+              "paletteMatch": 0.6232,
+              "detail": 0.0584,
+              "detailRaw": 0.2667,
+              "detailAdded": 0.4167,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/drain-photo.png"
+          },
+          {
+            "id": "camera-photo",
+            "verdict": "missing",
+            "score": {
+              "overall": 0.2689,
+              "structure": 0.2178,
+              "color": 0.5499,
+              "colorIntersection": 0.3562,
+              "paletteMatch": 0.6542,
+              "detail": 0.209,
+              "detailRaw": 0.3965,
+              "detailAdded": 0.375,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/camera-photo.png"
+          },
+          {
+            "id": "woma-photo",
+            "verdict": "missing",
+            "score": {
+              "overall": 0.3225,
+              "structure": 0.2503,
+              "color": 0.5805,
+              "colorIntersection": 0.4262,
+              "paletteMatch": 0.6636,
+              "detail": 0.2877,
+              "detailRaw": 0.3971,
+              "detailAdded": 0.2188,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/woma-photo.png"
+          }
+        ],
+        "advisories": [
+          "(advisory, above the 72% bar) region hero-quote: its ink sits in a 205x31px box in the comp and 182x22px in the build (padding, row height, or size); match the box, not only the position",
+          "(advisory, above the 72% bar; fix in the polish pass before responsive) 8 readings:",
+          "  text navigation: letter-spacing is wider than the comp's (gap 0.119 vs 0.074 of the cap height); set letter-spacing to close it by about 1px",
+          "  text reviews: cap height 20.5px in the build, 16.5px in the comp (+24%); set font-size so the cap height renders at 16.5px",
+          "  text intro: 2 lines in the build, 3 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+          "  text benefit-speed: 1 line in the build, 3 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+          "  text benefit-price: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+          "  text benefit-warranty: 1 line in the build, 3 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+          "  text benefit-price: the face renders 39% heavier than the comp's (ink density 0.60 vs 0.43); drop a weight step or use the ranked face",
+          "  text benefit-warranty: the face renders 86% heavier than the comp's (ink density 0.75 vs 0.40); drop a weight step or use the ranked face"
+        ],
+        "regionVerdicts": {
+          "utility": "contradicted",
+          "location": "drift",
+          "hours": "contradicted",
+          "brand-logo": "drift",
+          "navigation": "drift",
+          "header-call": "contradicted",
+          "headline": "drift",
+          "intro": "drift",
+          "hero-call": "contradicted",
+          "hero-quote": "missing",
+          "reviews": "drift",
+          "hero-photo": "drift",
+          "service-hours": "contradicted",
+          "photo-caption": "missing",
+          "benefit-band": "drift",
+          "benefit-speed": "missing",
+          "benefit-price": "drift",
+          "benefit-warranty": "missing",
+          "service-heading": "contradicted",
+          "drain-photo": "missing",
+          "woma-photo": "missing",
+          "camera-photo": "missing"
+        },
+        "at": "2026-11-02T16:17:13.059Z"
+      },
+      "forced": {
+        "at": "2026-11-02T16:17:13.077Z",
+        "reason": "The user explicitly downgraded comp fidelity and approved the current built screenshot as a layout adaptation: \"Keep original photos; use mockup A for layout (Recommended)\". The comp is the layout reference, not a requirement to reproduce generated photographic details. Native source photographs and the reviewed accessible responsive layout are retained.",
+        "reasons": [
+          "region hero-quote is missing (detail 6%, structure 67%): the comp shows material the build does not",
+          "region photo-caption is missing (detail 0%, structure 57%): the comp shows material the build does not",
+          "region benefit-speed is missing (detail 11%, structure 55%): the comp shows material the build does not",
+          "region benefit-warranty is missing (detail 1%, structure 58%): the comp shows material the build does not",
+          "region drain-photo is missing (detail 6%, structure 25%): the comp shows material the build does not",
+          "region woma-photo is missing (detail 29%, structure 25%): the comp shows material the build does not",
+          "region camera-photo is missing (detail 21%, structure 22%): the comp shows material the build does not",
+          "region hours (text) is contradicted (structure 65%, detail added 20%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region header-call (control) is contradicted (structure 64%, detail added 25%): this control does not read as the comp's: rebuild its chrome from the crop (border, fill, radius, chevron or arrow, label size) rather than from a component default",
+          "region hero-call (control) is contradicted (structure 61%, detail added 35%): this control does not read as the comp's: rebuild its chrome from the crop (border, fill, radius, chevron or arrow, label size) rather than from a component default",
+          "region service-hours (control) is contradicted (structure 34%, detail added 28%): this control does not read as the comp's: rebuild its chrome from the crop (border, fill, radius, chevron or arrow, label size) rather than from a component default",
+          "region service-heading (text) is contradicted (structure 43%, detail added 18%): the composition of this text region differs from the comp; re-derive it from the spec box"
+        ]
+      },
+      "readingsSeen": {
+        "text navigation: letter-spacing is wider than the comp's (gap 0.119 vs 0.074 of the cap height); set letter-spacing to close it by about 1px": 2,
+        "text reviews: cap height 20.5px in the build, 16.5px in the comp (+24%); set font-size so the cap height renders at 16.5px": 2,
+        "text intro: 2 lines in the build, 3 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 2,
+        "text benefit-speed: 1 line in the build, 3 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 2,
+        "text benefit-price: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 2,
+        "text benefit-warranty: 1 line in the build, 3 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 2,
+        "text benefit-price: the face renders 39% heavier than the comp's (ink density 0.60 vs 0.43); drop a weight step or use the ranked face": 2,
+        "text benefit-warranty: the face renders 86% heavier than the comp's (ink density 0.75 vs 0.40); drop a weight step or use the ranked face": 2,
+        "text reviews: ink is #2e3543 in the build, #f8b112 in the comp; use the comp's colour": 2,
+        "text hours: it starts 86px further right than in the comp": 2,
+        "text navigation: it starts 118px further right than in the comp": 2,
+        "text reviews: its first line starts 19px lower than in the comp (21px vs 2px into the region box); the spacing above it is too large": 2,
+        "text benefit-price: its first line starts 23px lower than in the comp (25px vs 2px into the region box); the spacing above it is too large": 2
+      },
+      "records": 1,
+      "history": [
+        {
+          "at": "2026-11-02T16:17:13.077Z",
+          "score": 0.7237,
+          "worstIds": [
+            "drain-photo",
+            "camera-photo",
+            "woma-photo"
+          ],
+          "regionVerdicts": {
+            "utility": "contradicted",
+            "location": "drift",
+            "hours": "contradicted",
+            "brand-logo": "drift",
+            "navigation": "drift",
+            "header-call": "contradicted",
+            "headline": "drift",
+            "intro": "drift",
+            "hero-call": "contradicted",
+            "hero-quote": "missing",
+            "reviews": "drift",
+            "hero-photo": "drift",
+            "service-hours": "contradicted",
+            "photo-caption": "missing",
+            "benefit-band": "drift",
+            "benefit-speed": "missing",
+            "benefit-price": "drift",
+            "benefit-warranty": "missing",
+            "service-heading": "contradicted",
+            "drain-photo": "missing",
+            "woma-photo": "missing",
+            "camera-photo": "missing"
+          },
+          "artifactHash": null
+        }
+      ]
+    },
+    "sections": {
+      "status": "closed",
+      "openedAt": "2026-11-02T16:17:13.078Z",
+      "closedAt": "2026-11-02T16:18:48.871Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-11-02T16:18:48.870Z"
+      },
+      "forced": null
+    },
+    "motion": {
+      "status": "closed",
+      "openedAt": "2026-11-02T16:18:48.871Z",
+      "closedAt": "2026-11-02T16:18:49.083Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-11-02T16:18:49.083Z"
+      },
+      "forced": null
+    },
+    "responsive": {
+      "status": "closed",
+      "openedAt": "2026-11-02T16:18:49.083Z",
+      "closedAt": "2026-11-02T16:27:00.504Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "at desktop width, region brand-logo is missing",
+          "at desktop width, region hero-quote is missing",
+          "at desktop width, region reviews is missing",
+          "at desktop width, region photo-caption is missing",
+          "at desktop width, region benefit-warranty is missing",
+          "at desktop width, region drain-photo is missing",
+          "at desktop width, region woma-photo is missing",
+          "at desktop width, region camera-photo is missing",
+          "at desktop width, region service-heading (text) is contradicted (structure 43%)"
+        ],
+        "summary": "desktop 72% (drift)",
+        "score": 0.7231,
+        "sideBySide": "/Users/adamdorogi/Downloads/kekmano/.impeccable/review/diff/desktop/side-by-side.png",
+        "at": "2026-11-02T16:27:00.488Z"
+      },
+      "forced": {
+        "at": "2026-11-02T16:27:00.504Z",
+        "reason": "The user explicitly downgraded comp fidelity: \"Keep original photos; use mockup A for layout (Recommended)\". Original source photos/logo are approved; paired crops confirm controls and text are present despite heuristic missing labels. Responsive widths 390,1280,1440,1536 have no overflow. Independent reviewer confirms the layout apart from a service-title inset fix being applied.",
+        "reasons": [
+          "at desktop width, region brand-logo is missing",
+          "at desktop width, region hero-quote is missing",
+          "at desktop width, region reviews is missing",
+          "at desktop width, region photo-caption is missing",
+          "at desktop width, region benefit-warranty is missing",
+          "at desktop width, region drain-photo is missing",
+          "at desktop width, region woma-photo is missing",
+          "at desktop width, region camera-photo is missing",
+          "at desktop width, region service-heading (text) is contradicted (structure 43%)"
+        ]
+      }
+    },
+    "review": {
+      "status": "closed",
+      "openedAt": "2026-11-02T16:27:00.504Z",
+      "closedAt": "2026-11-02T16:43:21.561Z",
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": {
+    "disposition": "ship",
+    "at": "2026-11-02T16:43:21.561Z",
+    "phaseAtFinish": "review"
+  },
+  "plates": {
+    "brand-logo": {
+      "status": "ok",
+      "score": 0.6038,
+      "size": "600x150"
+    },
+    "hero-photo": {
+      "status": "ok",
+      "score": 0.5736,
+      "size": "600x800"
+    },
+    "drain-photo": {
+      "status": "ok",
+      "score": 0.2313,
+      "size": "600x600"
+    },
+    "woma-photo": {
+      "status": "ok",
+      "score": 0.3022,
+      "size": "1080x810"
+    },
+    "camera-photo": {
+      "status": "ok",
+      "score": 0.2538,
+      "size": "1920x1440"
+    }
+  }
+}
